@@ -8,7 +8,8 @@ from .serializers import RecommendedItemsSerializer
 #from mysite import settings as stcd
 import smtplib
 import turicreate as tc
-import settings as setting
+import settings
+import os
 # Create your views here.
 
 
@@ -18,6 +19,7 @@ class ItemsUserApi(APIView):
         x.ItemID="111"
         x.ItemName="222"
         x.TimeStamp="222"
+        filepath=os.path.join(settings.STATIC_ROOT, 'my_model.model')
         model=tc.load_model("my_model.model")
         model
         serializer=RecommendedItemsSerializer(x)
