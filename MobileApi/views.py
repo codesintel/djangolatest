@@ -7,7 +7,7 @@ from rest_framework.views import APIView
 from .serializers import RecommendedItemsSerializer
 #from mysite import settings as stcd
 import smtplib
-#import turicreate as tc
+import turicreate as tc
 from RecSystem import settings as st
 import os
 # Create your views here.
