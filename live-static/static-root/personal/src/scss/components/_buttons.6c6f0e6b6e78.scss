@@ -1,0 +1,18 @@
+.btn {
+	&.focus {
+		outline: none;
+		box-shadow: none;
+	}
+}
+
+.btn-haimat {
+	@include button-variant($brand-primary, $brand-primary);
+
+	&:focus, &.focus {
+		box-shadow: none;
+	}
+
+	&:not(:disabled):not(.disabled):active:focus, &:not(:disabled):not(.disabled).active:focus {
+		box-shadow: none;
+	}
+}

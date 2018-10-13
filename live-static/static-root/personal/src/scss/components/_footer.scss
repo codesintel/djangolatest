@@ -1,0 +1,17 @@
+.app-footer {
+  min-height: $footer-height;
+  padding: 0 $spacer;
+  line-height: $footer-height;
+  color: $footer-color;
+  background: $footer-bg;
+
+  .content-right {
+    position: absolute;
+    right: $spacer;
+  }
+
+  .content-left {
+    position: absolute;
+    left: $spacer;
+  }
+}

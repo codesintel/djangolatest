@@ -1,0 +1,44 @@
+// TODO define your style
+
+$border-color: $gray-lighter;
+$layout-transition-speed: .25s;
+
+$layout-offset-x: 25%;
+
+
+// Navbar
+
+$navbar-height:                     55px;
+$navbar-bg:                         #F2F2F2;
+$nav-link-border-width:             1px;
+$nav-link-padding:                  0.5rem;
+$navbar-border: (
+  bottom: (
+    size:                       1px,
+    style:                      solid,
+    color:                      $border-color
+  )
+);
+$navbar-brand-width:                155px;
+$navbar-brand-bg:                   $navbar-bg;
+$navbar-brand-logo:                 url('../../img/logo.png');
+$navbar-brand-logo-size:            100px auto;
+$navbar-brand-border: (
+  bottom: (
+    size:                       1px,
+    style:                      solid,
+    color:                      $border-color
+  )
+);
+
+$navbar-color:                      rgba(0,0,0,.3);
+$navbar-hover-color:                rgba(0,0,0,.6);
+$navbar-active-color:               rgba(0,0,0,.8);
+$navbar-disabled-color:             rgba(0,0,0,.15);
+
+// Footer
+
+$footer-height: 50px;
+$footer-bg:     #58595D;
+$footer-color:  #fff;
+
