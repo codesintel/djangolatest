@@ -19,7 +19,7 @@ class ItemsUserApi(APIView):
         ProductsId=[]
         x.id=123
         x.ItemID="111"
-        filepath=os.path.join(st.STATIC_ROOT, 'my_model.model')
+        filepath=os.path.join(st.PROJECT_ROOT, 'my_model.model')
         model=tc.load_model(filepath)
         recommendations = model.recommend()
         ids=recommendations['movieId']
