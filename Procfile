@@ -1,1 +1,2 @@
-web: gunicorn RecSystem.wsgi
+web: gunicorn RecSystem.wsgi --log-file -
+
