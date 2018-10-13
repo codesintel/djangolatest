@@ -20,7 +20,7 @@ from MobileApi import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('TopProducts/', views.ItemsUserApi.as_view()),
-    path('UserSpecificProducts/', views.ItemsUserSpecificApi.as_view()),
+   # path('UserSpecificProducts/', views.ItemsUserSpecificApi.as_view()),
 
 
 ]
